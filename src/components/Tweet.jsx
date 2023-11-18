@@ -1,5 +1,6 @@
 import ProfileImage from './ProfileImage';
 import User from './User';
+import Timestamp from './Timestamp';
 function Tweet(props) {
   const {
     tweet: {
@@ -19,7 +20,7 @@ function Tweet(props) {
             <User name={name} handle={handle} />
           </span>
 
-          <span className='timestamp'>{timestamp}</span>
+          <Timestamp timestamp={timestamp} />
         </div>
 
         <p className='message'>{message}</p>
