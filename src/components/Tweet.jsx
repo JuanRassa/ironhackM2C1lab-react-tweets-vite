@@ -18,15 +18,10 @@ function Tweet(props) {
 
       <div className='body'>
         <div className='top'>
-          <span className='user'>
-            <User name={name} handle={handle} />
-          </span>
-
+          <User name={name} handle={handle} />
           <Timestamp timestamp={timestamp} />
         </div>
-
         <Message message={message} />
-
         <Actions />
       </div>
 
