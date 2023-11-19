@@ -19,7 +19,7 @@ function Tweet(props) {
       <div className='body'>
         <div className='top'>
           <User name={name} handle={handle} />
-          <Timestamp timestamp={timestamp} />
+          <Timestamp time={timestamp} />
         </div>
         <Message message={message} />
         <Actions />
